@@ -8,7 +8,7 @@ Small script to re-sign Android apk file with different signature.
 apksigner.py apkfile
 ```
 
-It unpack apk and pack it with your signature (currently only support `~/.android/debug.keystore`). Output will be `YOUR-APK-NAME-sign.apk` under the same directory as your original apk file.
+It unpack apk and pack it with your signature (currently only support `~/.android/debug.keystore`). Output will be `YOUR-APK-NAME-signed.apk` under the same directory as your original apk file.
 
 ### License
 ```
