@@ -5,7 +5,9 @@ Small script to re-sign Android apk file with different signature.
 
 ### Usage
 ```
-usage: apksigner.py [-h] [-o OUTPUT] apkfile
+apksigner.py [-h] [-o OUTPUT] apkfile
+
+Small script to re-sign Android apk file with different signature.
 
 positional arguments:
   apkfile               Original Apk file
@@ -13,7 +15,9 @@ positional arguments:
 optional arguments:
   -h, --help            show this help message and exit
   -o OUTPUT, --output OUTPUT
-                        output apk path
+                        Output apk path. Default path is YOUR-ORIGINAL-NAME-
+                        signed.apk under the same directory as your original
+                        apk file.
 ```
 
 This script unpacks apk and packs it with your signature (currently only support `~/.android/debug.keystore`).
