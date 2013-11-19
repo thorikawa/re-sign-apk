@@ -1,7 +1,7 @@
 re-sign-apk
 ===========
 
-Small script to re-sign apk with different signature.
+Small script to re-sign Android apk file with different signature.
 
 ### Usage
 ```
