@@ -22,7 +22,7 @@ alias = "androiddebugkey"
 
 # output apk file
 if args.output:
-	newapk = args.output
+	newapk = os.path.abspath(args.output)
 else:
 	name, ext = os.path.splitext(args.apkfile)
 	newapk = name + "-signed" + ext
