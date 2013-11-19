@@ -16,7 +16,7 @@ optional arguments:
                         output apk path
 ```
 
-It unpack apk and pack it with your signature (currently only support `~/.android/debug.keystore`). Output will be `YOUR-APK-NAME-signed.apk` under the same directory as your original apk file.
+This script unpacks apk and packs it with your signature (currently only support `~/.android/debug.keystore`).
 
 ### License
 ```
