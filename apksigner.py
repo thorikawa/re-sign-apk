@@ -7,9 +7,9 @@ import os.path
 import subprocess
 import tempfile
 
-parser = argparse.ArgumentParser(description='Filter logcat by package name')
+parser = argparse.ArgumentParser(description='Small script to re-sign Android apk file with different signature.')
 parser.add_argument('apkfile', help='Original Apk file')
-parser.add_argument('-o', '--output', dest='output', help='output apk path')
+parser.add_argument('-o', '--output', dest='output', help='Output apk path. Default path is YOUR-ORIGINAL-NAME-signed.apk under the same directory as your original apk file.')
 
 args = parser.parse_args()
 
